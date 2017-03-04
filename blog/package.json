@@ -1,0 +1,27 @@
+{
+  "name": "blog-creator",
+  "version": "1.0.0",
+  "description": "Blog builder project to run blog using js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --preset es2015 src -d app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fareezahmed@github.com/fareezahmed/blogCreator.git"
+  },
+  "author": "Fareez Ahmed",
+  "bugs": {
+    "url": "https://github.com/fareezahmed/blogCreator/issues"
+  },
+  "homepage": "https://github.com/fareezahmed/blogCreator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
