@@ -1,0 +1,140 @@
+#logo:hover {
+  text-decoration: none;
+}
+#logo .logo {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+#logo .logo img{
+  padding-left: 3px;
+  width: auto;
+  height: auto;
+  display: inherit;
+  vertical-align: middle;
+}
+
+[class^="icon-"], [class=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none !important;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+a.icon-button {
+  background-color: #eee;
+  border-radius: 3.6em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 1em;
+  width: 1em;
+  line-height: 3.6em;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a.icon-button i {
+    background: none;
+    color: white;
+    height: .9em;
+    width: .9em;
+    font-size: .8em;
+    left: 4px;
+    line-height: .9em;
+    position: absolute;
+    top: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: .5em;
+    z-index: 10;
+}
+
+a.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+.linkedin span {
+    background-color: #0077B5;
+}
+
+a.icon-button .icon-linkedin {
+    color: #0077B5;
+    font-size: .7em;
+    left: 5px;
+}
+
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+
+.linkedin span {
+    background-color: #3B5998;
+}
+
+a.icon-button .icon-facebook {
+    color: #3B5998;
+    left: 7px;
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.facebook span {
+    background-color: #3B5998;
+}
+
+a.icon-button .icon-twitter {
+    color: #4099ff;
+}
+
+.twitter span {
+    background-color: #4099ff;
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+
+#main-menu .bean-bag-social-dropdown .social-dropdown::before{
+  color: #e4e4e4;
+}
+
+a.icon-button:hover .icon-twitter, a.icon-button:hover .icon-facebook, a.icon-button:hover .icon-linkedin, a.icon-button:hover .icon-google-plus {
+    color: white;
+    text-decoration: none;
+}
+
+a.icon-button:hover span {
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 1em;
+    margin: -.55em;
+}

@@ -1,5 +1,0 @@
-<?php 
-
-// Function Files
-
-?>
